@@ -6,21 +6,13 @@ ubuntu
 
 ## 依存しているソフトウェア
 vlcがインストールされている必要があります。
-```
-sudo apt -y install vlc
-```
+`sudo apt -y install vlc`
 
 ## 準備
-1. 作業フォルダを作成します。
-```
-mkdir ~/Music/TaniyamaHirokoNoSekai
-```
-
-2. リポジトリ中の`TaniyamaHirokoNoSekai.sh`を`~/Music/TaniyamaHirokoNoSekai`にコピーします。
-その後、以下のコマンドを実行します。
-```
-chmod 744 ~/Music/TaniyamaHirokoNoSekai/TaniyamaHirokoNoSekai.sh
- 
-crontab -e
-59 20 * * 6 /home/user/Music/TaniyamaHirokoNoSekai/TaniyamaHirokoNoSekai.sh
-```
+1. 作業フォルダを作成します。  
+  `mkdir ~/Music/TaniyamaHirokoNoSekai`
+1. リポジトリ中の`TaniyamaHirokoNoSekai.sh`を`~/Music/TaniyamaHirokoNoSekai`にコピーします。  
+  その後、以下のコマンドを実行します。  
+  `chmod 744 ~/Music/TaniyamaHirokoNoSekai/TaniyamaHirokoNoSekai.sh`  
+  `crontab -e`  
+  `59 20 * * 6 /home/user/Music/TaniyamaHirokoNoSekai/TaniyamaHirokoNoSekai.sh`
